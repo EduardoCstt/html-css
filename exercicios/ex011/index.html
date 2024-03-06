@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamica</h1>
+    <p>Tente abrir esse site em vãrios dipositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+   <picture> <!--ADAPTAÇÃO DE IMAGEM PARA DIFERENTES PLATAFORMAS-->
+        <source media="(max-width: 650px )" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Imagem flexível">
+    </picture> 
+
+    <audio src="midias/Brontosaurus - Topher Mohr and Alex Elena.mp3" controls >123 </audio> <!--MP3 OGG WAV-->
+    <hr>
+
+    <audio>
+        <source src="midias/Brontosaurus - Topher Mohr and Alex Elena.mp3" type="audio/mpeg ">
+    </audio>
+    
+    
+</body>
+</html>

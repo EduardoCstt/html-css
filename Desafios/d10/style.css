@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    line-height: 20px;
+}
+
+header{
+    background-image: linear-gradient(to bottom,#46f397, #06391C);
+    color: white;
+    padding: 0px;
+    text-align: center;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+header > h1{
+        font-family: Bebas Neue;
+        font-size: 40px;
+        text-shadow: 1px 1px 2px black;
+}
+nav,nav > a{
+    background-color: #06391C;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a{
+    margin: 0px 20px;
+}
+main  a{
+   color: #143f3a; 
+   text-decoration: none;
+   font-weight: bold;
+   background-image: linear-gradient(to right, #87E1AF, white);
+
+}
+main  a::after{
+    content: "⛓️";
+    
+}
+aside a {
+    background-image: none;
+}
+
+strong{
+    color: #195e38;
+}
+div{
+    background-color: #87E1AF;
+
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: auto;
+    width: 820px; 
+    background-color: white;
+    text-align: justify;
+    padding: 0px 10px;
+    border-radius:0px 0px 20px 20px;
+}
+main > p{
+    text-indent: 30px;
+    padding: 10px 10px;
+}
+
+main > h1{
+    font-family: idroid;
+    font-size: 35px;
+    color: #063D1E;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+
+}
+
+main > h2{
+    font-family: idroid;
+    background-image: linear-gradient(to right, #87E1AF, white);
+    border-radius: 10px;
+    margin:30px 8px;
+    font-size: 24px;   
+}
+
+img,iframe{
+    padding: 10px 5px;
+    display: block;
+    margin: auto;
+}
+.video{
+    background-color: #06391C;
+}
+aside{
+    margin: 20px 5px;
+    background-color:#83E1AD;
+    border-radius: 20px;
+    text-indent: 30px;
+
+}
+
+aside > h1{
+    background-color:#2FA866 ;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+aside > p {
+    padding: 10px;
+    
+}
+aside > ul{
+    column-count: 2;
+    padding-left: 20px;
+    list-style-position: inside;
+    
+}
+
+aside > ul > li {
+    font-style: normal;
+    font-size:16px;
+    font-weight: normal;
+   
+}
+
+.mai{
+    padding-bottom: 50px;
+    
+}
+footer{
+    background-color: #06391C;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    padding: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+
+}
+footer > p > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+}
